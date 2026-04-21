@@ -2,9 +2,9 @@ class Tinyjam < Formula
   include Language::Python::Virtualenv
   desc "Jam 2 NPR Tiny Desks"
   homepage "https://github.com/aryakaul/tinyjam"
-  url "https://files.pythonhosted.org/packages/8a/ed/3d1bf8623d9dcfb6c46400099db2ef8a1598acc5b06b7ac8f14490e358fd/tinyjam-1.1.0.tar.gz"
-  version "1.1.0"
-  sha256 "9d9bc6620d03ce37d111368ff570f9a7f99b01d1a0e8e69485d6ae653c38587d"
+  url "https://files.pythonhosted.org/packages/77/98/99729a5b1d71282f3238de879a622803398e0d9bc891b549e0964cdb8060/tinyjam-1.2.0.tar.gz"
+  version "1.2.0"
+  sha256 "53e8d7ccdd48f6088efe08c4ce4c0550e57dc4f1daf6b50841f8297b6fbeeb6c"
   license "Ethical License"
   head "https://github.com/aryakaul/tinyjam.git", branch: "main"
   depends_on "python@3.11"
